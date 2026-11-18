@@ -28,6 +28,7 @@ assembly programs makes this concrete.
 | `stackpassing.s` | Stack args at `[rbp+16]`, `[rbp+24]` |
 | `stackpassing2.s` | Return values → syscall number |
 | `printf_in_asm.s` | Variadic printf, `%d`, `div`-based itoa |
+| `cat_in_asm.s` | cat clone: open/read/write/close, file descriptors, EOF, multi-file |
 
 ## Build
 
