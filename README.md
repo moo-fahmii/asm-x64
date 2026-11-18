@@ -1,4 +1,4 @@
-# x86-64 Assembly Portfolio
+# x86-64 Assembly
 
 Linux x86-64 assembly programs written from scratch, no libc — direct syscalls only.
 Part of my journey toward malware analysis and reverse engineering.
@@ -31,10 +31,9 @@ assembly programs makes this concrete.
 
 ## Build
 
-```bash
-as file.s -o file.o
-ld -e _start file.o -o file
-./file
+    as file.s -o file.o
+    ld -e _start file.o -o file
+    ./file
 
 ## License
 
